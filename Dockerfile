@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:18.04
 
 MAINTAINER ybmsr <dspa.mobile04@gmail.com>
 
