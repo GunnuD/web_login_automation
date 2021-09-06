@@ -4,11 +4,11 @@ MAINTAINER ybmsr <dspa.mobile04@gmail.com>
 
 WORKDIR /usr/apps/hello-docker/
 
-RUN apt-get -y update
+RUN apt -y update
 
-RUN apt-get install -y nodejs
+RUN apt install -y nodejs
 
-RUN apt-get install -y npm
+RUN apt install -y npm
 
 #RUN ln -s /usr/bin/nodejs /usr/bin/node........;;;;;
 
